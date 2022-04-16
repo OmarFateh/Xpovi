@@ -5,15 +5,16 @@ from .base import *
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'amazon_clone',
-#         'USER': 'rootuser',
-#         'HOST': 'localhost',
-#         'PASSWORD': os.environ.get('DB_PASSWORD'),
-#         'PORT': '3306',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd8qdqg1rk7i8cj',
+        'USER': 'iuydmznetafnho',
+        'HOST': 'ec2-52-18-116-67.eu-west-1.compute.amazonaws.com',
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'PORT': '5432',
+    }
+}
+

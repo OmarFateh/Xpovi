@@ -6,8 +6,8 @@ include/
 pip-selfcheck.json
 
 # Django related 
-src/project/settings/local.py
-src/core/settings/development.py
+project/settings/local.py
+core/settings/development.py
 static/  # any collected static files
 db.sqlite3
 
