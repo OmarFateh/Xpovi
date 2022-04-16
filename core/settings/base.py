@@ -31,13 +31,13 @@ INSTALLED_APPS = [
     # third party apps
     'rest_framework',
     'corsheaders',
-    # 'rest_framework_simplejwt.token_blacklist',
     'drf_yasg',
 ]
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
