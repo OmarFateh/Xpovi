@@ -13,7 +13,7 @@
 * DRF-Simple JWT 5.1.0    
 
 ## DB Schema
-![This is an image](https://github.com/OmarFateh/Xpovi/db-schema.png)
+![This is an image](https://github.com/OmarFateh/Xpovi/blob/main/db-schema.png)
 
 ## Live
 * https://xpovi-assign.herokuapp.com/    
